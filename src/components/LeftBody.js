@@ -8,7 +8,6 @@ const LeftBody = () => {
       flex={1} p={2}
       sx={{
         display: {xs: 'none', sm: 'block'},
-        backgroundColor: 'primary.main'
       }}>
         <Box position="fixed">
           <List>

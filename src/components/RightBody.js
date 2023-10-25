@@ -1,8 +1,8 @@
 import { Box, Checkbox, FormControlLabel, FormGroup, Switch } from '@mui/material'
 import React, { useState } from 'react'
 
-const RightBody = () => {
-  const [mode, setMode] = useState('light')
+const RightBody = ({mode, setMode}) => {
+
   return (
     <Box
       flex={2} p={2}>

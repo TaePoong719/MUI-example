@@ -3,6 +3,7 @@ import { purple, green } from '@mui/material/colors'
 
 const theme = createTheme({
   palette:{
+    mode:'light',
     primary: {
       main : purple[500]
     },
